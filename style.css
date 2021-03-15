@@ -1,0 +1,21 @@
+.container{
+  text-align: center;
+}
+input {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color:rgba(49,99,244,1);
+  text-align: center;
+}
+
+button {
+  margin: 0 30px;
+  width: 40px;
+  height: 30px;
+  background-color: rgba(145,244,118,1);
+  font-size: 20px;
+  color: rgba(103,99,103,1);
+  font-weight:bold;
+}

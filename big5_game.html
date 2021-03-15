@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>インスタント BIG5 ゲーム！</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>インスタントBIG5ゲーム</h1>
+        <div class="concordance">
+          <p>協調性</p>
+            <button class="rmv count-btn" id="rmv-concord" type="button" name="button" onclick="btnRmv(concord)">-</button>
+            <input class="input" id="concord-param" type="text" name="param" value="0">
+            <button class="add" id="add-concord" type="button" name="button" onclick="btnAdd(concord)">+</button>
+        </div>
+        <div class="externality">
+          <p>外向性</p>
+            <button class="rmv" id="rmv-external" type="button" name="button" onclick="btnRmv(external)">-</button>
+            <input class="input" id="external-param" type="text" name="param" value="0">
+            <button class="add" id="add-external" type="button" name="button" onclick="btnAdd(external)">+</button>
+        </div>
+        <div class="opening">
+          <p>開放性</p>
+          <button class="rmv" id="rmv-open" type="button" name="button" onclick="btnRmv(opening, countO)">-</button>
+          <input class="input" id="open-param" type="text" name="param" value="0">
+          <button class="add" id="add-open" type="button" name="button" onclick="btnAdd(opening, countO)">+</button>
+        </div>
+        <div class="honesty">
+          <p>誠実性</p>
+          <button class="rmv" id="rmv-honest" type="button" name="button" onclick="btnRmv(honesty, countH)">-</button>
+          <input class="input" id="honest-param" type="text" name="param" value="0">
+          <button class="add"  id="add-honest" type="button" name="button" onclick="btnAdd(honesty, countH)">+</button>
+        </div>
+        <div class="neurotic-tendency">
+          <p>神経症的傾向</p>
+          <button class="rmv" id="rmv-neurosis" type="button" name="button" onclick="btnRmv(neurosis, countN)">-</button>
+          <input class="input" id="neurosis-param" type="text" name="param" value="0">
+          <button class="add" id="add-neurosis" type="button" name="button" onclick="btnAdd(neurosis, countN)">+</button>
+        </div>
+        <div class="riset-btn">
+          <button type="button" name="reset" id="reset">reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
