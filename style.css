@@ -1,3 +1,6 @@
+.body {
+  font-family:　'游ゴシック', 'Yu Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'Georgia';
+}
 .container{
   text-align: center;
 }
@@ -5,17 +8,29 @@ input {
   width: 60px;
   height: 60px;
   font-size: 20px;
-  border-radius: 10px;
+  font-weight: bold;
+  border-radius: 50px;
   border-color:rgba(49,99,244,1);
   text-align: center;
 }
 
 button {
-  margin: 0 30px;
-  width: 40px;
-  height: 30px;
+  margin: 0 54px;
+  width: 60px;
+  height: 60px;
   background-color: rgba(145,244,118,1);
-  font-size: 20px;
+  font-size: 40px;
   color: rgba(103,99,103,1);
   font-weight:bold;
+  border-radius: 10px;
+  border-style: none;
+  border-bottom-style: outset;
+  border-bottom-width: 5px;
+  border-bottom-color: rgba(29,82,33,1);
+  position: relative;
+}
+
+button:active {
+  top: 8px;
+  border-bottom-width: 1px;
 }
