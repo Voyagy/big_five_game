@@ -20,7 +20,8 @@ let countO = 0;
 let countH = 0;
 let countN = 0;
 
-function countup(a, r, i){
+class Countup {
+  constructor(a, r, i){
   a.addEventListener("click", ()=>{
     if(i < 9){
       i += counter(1);
@@ -41,17 +42,17 @@ function countup(a, r, i){
       r.setAttribute('disabled', "");
     };
   });
-};
+}}
 
 function counter(count){
   return  count ++;
 };
 
-countup(addC, rmvC, countC);
-countup(addE, rmvE, countE);
-countup(addO, rmvO, countO);
-countup(addH, rmvH, countH);
-countup(addN, rmvN, countN);
+new Countup(addC, rmvC, countC);
+new Countup(addE, rmvE, countE);
+new Countup(addO, rmvO, countO);
+new Countup(addH, rmvH, countH);
+new Countup(addN, rmvN, countN);
 
 function btnAdd(param){
   param.value ++;
