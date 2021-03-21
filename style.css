@@ -92,3 +92,40 @@ button:active {
   width: 60px;
   font-size: 20px;
 }
+@media(max-width: 428px){
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .name{
+    width: 60%;
+    height: 50%;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .name-box, .name-tail {
+    width: 30%;
+    height: 8%;
+  }
+  .name-tail {
+    font-size: 60%;
+  }
+  h1 {
+    font-size: 90%;
+  }
+  .element {
+    height: 60%;
+    margin-bottom: 16px;
+  }
+  .element p {
+    font-size: 85%;
+  }
+  .concordance {
+    margin-top: 60px;
+  }
+}
