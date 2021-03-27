@@ -96,6 +96,9 @@ button:active {
   * {
     box-sizing: border-box;
   }
+  .wrapper {
+    display: flex;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -116,6 +119,7 @@ button:active {
     font-size: 60%;
   }
   h1 {
+    height: 240px;
     font-size: 90%;
   }
   .element {
@@ -125,7 +129,16 @@ button:active {
   .element p {
     font-size: 85%;
   }
+  button {
+    height: 44px;
+    width: 44px;
+    padding-bottom: 16px;
+  }
   .concordance {
-    margin-top: 60px;
+    margin-top: 20px;
+  }
+  #reset {
+    height: 36px;
+    padding-top: 6px;
   }
 }
