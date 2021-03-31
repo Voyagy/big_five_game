@@ -18,7 +18,7 @@ p {
   font-weight: bold;
 }
 .wrapper {
-  background: linear-gradient(rgba(48,228,238,1),rgba(125,84,215,1));
+  background: linear-gradient(rgba(48,238,107,1),rgba(215,84,84,1));
   height: 100%;
 }
 .container{
