@@ -92,12 +92,13 @@ button:active {
   width: 60px;
   font-size: 20px;
 }
-@media(max-width: 428px){
+@media(max-width: 414px){
   * {
     box-sizing: border-box;
   }
   .wrapper {
     display: flex;
+    height: 100%;
   }
   .container {
     display: flex;
