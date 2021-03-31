@@ -92,7 +92,7 @@ button:active {
   width: 60px;
   font-size: 20px;
 }
-@media(max-width: 414px){
+@media(max-width: 428px){
   * {
     box-sizing: border-box;
   }
@@ -124,22 +124,31 @@ button:active {
     font-size: 90%;
   }
   .element {
+    display: flex;
     height: 60%;
     margin-bottom: 16px;
+    flex-direction: column;
   }
   .element p {
+    display: inline;
     font-size: 85%;
   }
+  .element-btns {
+    display: flex;
+    height: 60%;
+  }
   button {
-    height: 44px;
-    width: 44px;
+    height: 38px;
+    width: 38px;
     padding-bottom: 16px;
   }
   .concordance {
     margin-top: 20px;
   }
   #reset {
-    height: 36px;
+    height: 28px;
+    width: 42px;
+    font-size: 80%;
     padding-top: 6px;
   }
 }
