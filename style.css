@@ -20,8 +20,10 @@ p {
 .wrapper {
   background: linear-gradient(rgba(48,238,107,1),rgba(116,76,228,1));
   height: 100%;
+  width: 100%;
 }
 .container{
+  width: 100%;
   text-align: center;
   position: relative;
 }
@@ -58,6 +60,7 @@ input {
   margin: 0 0px;
 }
 button {
+  z-index: 10;
   margin: 0 54px;
   width: 54px;
   height: 54px;
@@ -105,23 +108,28 @@ button:active {
     flex-direction: column;
   }
   .name{
+    display: inline-block;
     width: 60%;
-    height: 50%;
+    height: auto;
     text-align: left;
     position: absolute;
     top: 10%;
     left: 5%;
   }
   .name-box, .name-tail {
-    width: 30%;
-    height: 8%;
+    width: 40%;
+    height: 30px;
   }
   .name-tail {
     font-size: 60%;
   }
   h1 {
-    height: 240px;
     font-size: 90%;
+    display: inline;
+    width: 70%;
+    height: inherit;
+    margin: 36px auto;
+    padding: 0 0;
   }
   .element {
     display: flex;
@@ -142,12 +150,18 @@ button:active {
     width: 38px;
     padding-bottom: 16px;
   }
+  .rmv {
+    background-color: rgba(110,219,245,1);
+    text-align: center;
+    padding: 0px 10px 30px 10px;
+  }
   .concordance {
     margin-top: 20px;
   }
   #reset {
-    height: 28px;
-    width: 42px;
+    height: 90%;
+    padding: 15% 0;
+    margin: 0;
     font-size: 80%;
     padding-top: 6px;
   }
