@@ -18,7 +18,7 @@ p {
   font-weight: bold;
 }
 .wrapper {
-  background: linear-gradient(rgba(48,238,107,1),rgba(116,76,228,1));
+  background: linear-gradient(to bottom right, rgba(48,238,107,1) 0%, rgba(8,194,110,1) , rgba(77,39,182,1) 99%);
   height: 100%;
   width: 100%;
 }
@@ -80,9 +80,13 @@ button:active {
 
 .rmv {
   background-color: rgba(110,219,245,1);
+  text-align: center;
+  padding: 0px 10px 30px 10px;
 }
 .add {
   background-color: rgba(246,223,81,.84);
+  text-align: center;
+  padding: 0px 10px 30px 10px;
 }
 .reset-btn {
   position: absolute;
@@ -121,7 +125,7 @@ button:active {
     height: 30px;
   }
   .name-tail {
-    font-size: 60%;
+    font-size: 40%;
   }
   h1 {
     font-size: 90%;
@@ -148,12 +152,11 @@ button:active {
   button {
     height: 38px;
     width: 38px;
+    font-size: 28px;
     padding-bottom: 16px;
   }
-  .rmv {
-    background-color: rgba(110,219,245,1);
-    text-align: center;
-    padding: 0px 10px 30px 10px;
+  .add, .rmv {
+    padding: 6px 6px;
   }
   .concordance {
     margin-top: 20px;
